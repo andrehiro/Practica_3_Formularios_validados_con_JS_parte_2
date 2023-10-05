@@ -6,30 +6,51 @@ A
 ### Explique el almacenamiento del navegador (sessionStorage y localStorage) indique ventajas y desventajas, capacidad de almacenamiento y como accederlo utilizando java script (como almacenar, recuperar y eliminar datos)
 
 El almacenamiento en el navegador web es una característica que permite a las aplicaciones web almacenar datos en el dispositivo del usuario.
-###### localStorage
+##### localStorage
 Ventajas
+
 •	Los datos se mantienen a través de sesiones y recargas de página, estos no tienen una fecha de caducidad.
+
 •	Es útil para almacenar preferencias del usuario y datos que deben persistir a lo largo del tiempo.
+
 Desventajas
+
 •	Capacidad de almacenamiento limitada.
+
 •	No es adecuado para datos sensibles, ya que los datos almacenados son accesibles desde JavaScript y pueden ser modificados por el usuario.
+
 Capacidad de Almacenamiento: Aproximadamente 5-10 MB, aunque esto puede variar según el navegador y la configuración del usuario.
+
 Acceso desde JavaScript:
+
 Almacenar datos: sessionStorage.setItem('clave', 'valor');
+
 Recuperar datos: var valor = sessionStorage.getItem('clave');
+
 Eliminar datos: localStorage.removeItem('clave');
+
 sessionStorage
+
 Ventajas
+
 •	Los datos se eliminan automáticamente al final de la sesión del navegador, lo que es útil para datos temporales y sensibles.
+
 •	La eliminación de datos también ayuda al ahorro de espacio en el almacenamiento.
+
 Desventajas
+
 •	Tiene una capacidad de almacenamiento limitada.
+
 •	No es adecuado para datos que deben persistir más allá de la sesión actual.
+
 Capacidad de Almacenamiento: Aproximadamente 5-10 MB, aunque esto puede variar según el navegador y la configuración del usuario.
-Persistencia: Los datos almacenados en sessionStorage son válidos solo para la duración de la sesión actual del navegador. Se borran cuando se cierra la pestaña o el navegador.
+
 Acceso desde JavaScript:
+
 Almacenar datos: sessionStorage.setItem('clave', 'valor');
+
 Recuperar datos: var valor = sessionStorage.getItem('clave');
+
 Eliminar datos: sessionStorage.removeItem('clave');
 
 ¿Qué es JSON?
