@@ -2,7 +2,11 @@
 Andre Alexander Hidrogo Rocha 05/10/2023 Continuacion del formulario validado con un script en JS
 
 ### Explique los arreglos en JavaScript
+Es una estructura de datos que se utiliza para almacenar una colección de elementos o valores. Estos elementos pueden ser de cualquier tipo, incluyendo números, cadenas de texto, objetos, funciones, entre otros.
 
+Para crear un arreglo en JavaScript se utiliza la siguiente sintaxis:
+
+var miArreglo = [elemento1, elemento2, elemento3, ...];
 
 ### Explique el almacenamiento del navegador (sessionStorage y localStorage) indique ventajas y desventajas, capacidad de almacenamiento y como accederlo utilizando java script (como almacenar, recuperar y eliminar datos)
 
