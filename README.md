@@ -6,30 +6,32 @@ A
 ### Explique el almacenamiento del navegador (sessionStorage y localStorage) indique ventajas y desventajas, capacidad de almacenamiento y como accederlo utilizando java script (como almacenar, recuperar y eliminar datos)
 
 El almacenamiento en el navegador web es una característica que permite a las aplicaciones web almacenar datos en el dispositivo del usuario.
-##### localStorage
-Ventajas
+
+**localStorage**
+
+**Ventajas**
 
 •	Los datos se mantienen a través de sesiones y recargas de página, estos no tienen una fecha de caducidad.
 
 •	Es útil para almacenar preferencias del usuario y datos que deben persistir a lo largo del tiempo.
 
-Desventajas
+**Desventajas**
 
 •	Capacidad de almacenamiento limitada.
 
 •	No es adecuado para datos sensibles, ya que los datos almacenados son accesibles desde JavaScript y pueden ser modificados por el usuario.
 
-Capacidad de Almacenamiento: Aproximadamente 5-10 MB, aunque esto puede variar según el navegador y la configuración del usuario.
+**Capacidad de Almacenamiento:** Aproximadamente 5-10 MB, aunque esto puede variar según el navegador y la configuración del usuario.
 
-Acceso desde JavaScript:
+**Acceso desde JavaScript:**
 
-Almacenar datos: sessionStorage.setItem('clave', 'valor');
+**Almacenar datos**: sessionStorage.setItem('clave', 'valor');
 
-Recuperar datos: var valor = sessionStorage.getItem('clave');
+**Recuperar datos:** var valor = sessionStorage.getItem('clave');
 
-Eliminar datos: localStorage.removeItem('clave');
+**Eliminar datos:** localStorage.removeItem('clave');
 
-sessionStorage
+**sessionStorage**
 
 Ventajas
 
