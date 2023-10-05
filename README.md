@@ -1,7 +1,8 @@
 # Practica_3_Formularios_validados_con_JS_parte_2
+Andre Alexander Hidrogo Rocha 05/10/2023 Continuacion del formulario validado con un script en JS
 
 ### Explique los arreglos en JavaScript
-A
+
 
 ### Explique el almacenamiento del navegador (sessionStorage y localStorage) indique ventajas y desventajas, capacidad de almacenamiento y como accederlo utilizando java script (como almacenar, recuperar y eliminar datos)
 
